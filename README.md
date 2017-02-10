@@ -1,4 +1,7 @@
 # HerokuDemo
+
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+
 This application was generated using JHipster 4.0.2, you can find documentation and help at [https://jhipster.github.io/documentation-archive/v4.0.2](https://jhipster.github.io/documentation-archive/v4.0.2).
 
 ## Development
