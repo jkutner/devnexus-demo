@@ -1,0 +1,30 @@
+{
+  "generator-jhipster": {
+    "jhipsterVersion": "4.0.2",
+    "baseName": "HerokuDemo",
+    "packageName": "com.example",
+    "packageFolder": "com/example",
+    "serverPort": "8080",
+    "authenticationType": "session",
+    "hibernateCache": "no",
+    "clusteredHttpSession": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "postgresql",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSocialSignIn": false,
+    "rememberMeKey": "14c55804811ad14a7b0941d7b6d40f4f30ffa688",
+    "useSass": false,
+    "clientPackageManager": "yarn",
+    "applicationType": "monolith",
+    "clientFramework": "angular1",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "enableTranslation": false,
+    "herokuAppName": "intense-stream-65012"
+  }
+}

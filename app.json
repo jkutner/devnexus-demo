@@ -1,0 +1,23 @@
+{
+    "name": "DevNexus Demo",
+    "description": "Welcome to DevNexus. This is a JHipster demo.",
+    "addons": [ "heroku-postgresql" ],
+    "env": {
+        "MAVEN_CUSTOM_OPTS": {
+            "description": "Options for the Maven build.",
+            "value": "-Pprod,heroku -DskipTests"
+        },
+        "NPM_CONFIG_PRODUCTION": {
+            "description": "Install devDependencies",
+            "value": "false"
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/nodejs"
+        },
+        {
+            "url": "heroku/java"
+        }
+    ]
+}
